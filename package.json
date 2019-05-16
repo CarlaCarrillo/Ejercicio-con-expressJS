@@ -1,0 +1,22 @@
+{
+  "name": "ejercioexpress",
+  "version": "1.0.0",
+  "description": "Ejercicio con express JS de Juan Manuel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlaCarrillo/Ejercicio-con-expressJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlaCarrillo/Ejercicio-con-expressJS/issues"
+  },
+  "homepage": "https://github.com/CarlaCarrillo/Ejercicio-con-expressJS#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
