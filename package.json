@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/CarlaCarrillo/Ejercicio-con-expressJS#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "nodemon": "^1.19.0"
   }
 }
