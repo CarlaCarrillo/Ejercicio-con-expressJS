@@ -14,7 +14,21 @@ app.get('/bye', function (req, res) {
   });
 
 
-//app.use(express.static('assets'))
+//ejercicio 2
+app.get('/p1', function (req,res) {
+  res.send("estas en p1")
+});
+
+app.post('/p2', function (req,res) {
+  res.send("Sorry, we cannot find that!")
+});
+
+app.path('/p3', (req,res)  {
+  res.status(p3).sendFile('/assets/puppy-1.png')
+});
+
+
+//app.use(express.static('assets')) y se abre en navegador con http://localhost:3000/assets/nombre de imagen.jpeg
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
 app.listen(3000, function () {
